@@ -8,8 +8,7 @@ function calculatePayee(taxableIncome) {
   } else {
     tax = 24000 * 0.1 + 8333 * 0.25 + (taxableIncome - 32333) * 0.3;
   }
-  /*  personal relief of KES 2,400 */
-  return tax - 2400;
+  return tax 
 }
 
 function netSalary(basicSalary, benefits) {
