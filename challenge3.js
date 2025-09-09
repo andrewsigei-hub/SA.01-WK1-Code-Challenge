@@ -12,3 +12,8 @@ function calculatePayee(taxableIncome) {
     return(tax - 2400);
 }
 
+function netSalary(basicSalary, benefits){
+  const grossSalary = basicSalary + benefits
+  
+
+}
